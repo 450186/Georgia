@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+    <a href="test.html"><h2 class="center-text">About Me</h2></a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Prose.html">The Prosé Book Club</a>
+  <a href="Shorts.html">Short Stories</a>
+  <a href="Contact-me.html">Contact Me</a>
+</div>
+<div class="flex-container">
+<img class="Hamburger" onclick="openNav()" src="assets/hamburger_button_menu_icon_155296.png" alt="Hamburger">
+<h1 class="center-flex">Georgia Legg</h1>
+<img class="right" src="assets/hamburger_button_menu_icon_155296.png" alt="">
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<h2 class="center-text">About me</h2>
+<div class="content-flex">
+    <img src="assets/" alt="">
+</div>
+</body>
+</html> 
