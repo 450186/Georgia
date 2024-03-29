@@ -1,4 +1,7 @@
 body {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #eaddca;
   color: #35070A;
 }
@@ -79,11 +82,13 @@ body {
 h2 {
   font-size: 30px;
   margin-top: 100px;
+  text-transform: capitalize;
 }
 
 h1 {
   margin: 0px;
   font-size: 60px;
+  text-transform: capitalize;
 }
 
 .content-flex {
@@ -111,4 +116,33 @@ h1 {
   float: left;
   padding-left: 20px;
   padding-top: 20px;
+}
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
 }
