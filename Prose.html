@@ -1,35 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Prosé Book Club</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body> 
-<div id="mySidenav" class="sidenav">
-    <a href="test.html"><h2 class="center-text">About Me</h2></a>
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="Prose.html">The Prosé Book Club</a>
-  <a href="Shorts.html">Short Stories</a>
-  <a href="Contact-me.html">Contact Me</a>
-</div>
-<div class="flex-container">
-<img class="Hamburger" onclick="openNav()" src="assets/hamburger_button_menu_icon_155296.png" alt="Hamburger">
-<h1 class="center-flex">Georgia Legg</h1>
-<img class="right" src="assets/hamburger_button_menu_icon_155296.png" alt="">
-</div>
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
+<html>
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-   
-    
-    
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Titan+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="About-me.html">
+      <h2 class="titan-one-regular center-text">The Prosé Book Club</h2>
+    </a>
+    <a href="javascript:void(0)" class="closebtn pt-serif-regular" onclick="closeNav()">&times;</a>
+    <a href="About-me.html" class="pt-serif-regular">About Me</a>
+    <a href="Shorts.html" class="pt-serif-regular">Short Stories</a>
+    <a href="Contact-me.html" class="pt-serif-regular">Contact Me</a>
+  </div>
+  <div class="flex-container">
+    <!-- <img class="Hamburger" onclick="openNav()" src="assets/hamburger_button_menu_icon_155296.png" alt="Hamburger"> -->
+    <span class="Hamburger" onclick="openNav()">&#9776;</span>
+    <h1 class="titan-one-regular center-flex">GEORGIA SIMCOX</h1>
+    <span class="Hamburger right">&#9776;</span>
+  </div>
+
+  <h2 class="titan-one-regular center-text ">The Prosé Book Club</h2>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
 </body>
+
 </html>

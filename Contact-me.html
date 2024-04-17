@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Titan+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="About-me.html">
+      <h2 class="titan-one-regular center-text">Contact Me</h2>
+    </a>
+    <a href="javascript:void(0)" class="closebtn pt-serif-regular" onclick="closeNav()">&times;</a>
+    <a href="About-me.html" class="pt-serif-regular">About Me</a>
+    <a href="Prose.html" class="pt-serif-regular">The Prosé Book Club</a>
+    <a href="Shorts.html" class="pt-serif-regular">Short Stories</a>
+  </div>
+  <div class="flex-container">
+    <!-- <img class="Hamburger" onclick="openNav()" src="assets/hamburger_button_menu_icon_155296.png" alt="Hamburger"> -->
+    <span class="Hamburger" onclick="openNav()">&#9776;</span>
+    <h1 class="titan-one-regular center-flex">GEORGIA SIMCOX</h1>
+    <span class="Hamburger right">&#9776;</span>
+  </div>
+
+  <h2 class="titan-one-regular center-text ">Contact Me</h2>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</body>
+
+</html>
