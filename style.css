@@ -105,9 +105,40 @@ h1 {
 
 .headshot {
   border-radius: 5%; 
-  max-width: 50%;
-  max-height: 25%;
+  width: 100%;
   float: left;
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.headshot:hover {
+  opacity: 0.8;
+}
+
+.headshot2 {
+  border-radius: 5%;
+  max-width: 25%;
+  position: relative;
+}
+.Caption {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  bottom: -10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.Headshot-contain {
+  position: relative;
+  display: inline-block;
+}
+
+.Headshot-contain:hover .Caption {
+  opacity: 1;
 }
 
 .About-Me {
@@ -145,4 +176,62 @@ h1 {
   font-family: "PT Serif", serif;
   font-weight: 700;
   font-style: italic;
+}
+
+.contactMe {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Short-Stories {
+  border-radius: 5%; 
+  width: 100%;
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.Short-Stories:hover {
+  opacity: 0.8;
+}
+
+.Story {
+  position: relative;
+  display: inline-block;
+  max-width: 25%;
+}
+.Story-Caption {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  top: -5%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+}
+
+.Story:hover .Story-Caption {
+  opacity: 1;
+}
+
+.stories {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+.left-stories {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: center;
+  width: auto;
 }
